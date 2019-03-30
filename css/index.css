@@ -71,12 +71,68 @@ p {
     margin: 0 auto;
 }
 
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.header-content nav {
+    word-spacing: 75px;
+}
+
+.header-content nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.about-content{
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.about-content div {
+    width: 750px;
+    margin: auto;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.middle-content-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.middle-content-box button {
+    margin: 15px 0;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.middle-content-about {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    width: 45%;
 }
 
 .top-content .text-container {
@@ -88,10 +144,29 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    width: 100%;
 }
 
 .middle-content h2 {
-    padding: 0 2%;
+    margin-left: 15px;
+}
+
+.bottom-content-about {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.bottom-content-about footer {
+    margin-top: 20px;
+}
+
+.bottom-content-about div {
+    width: 750px;
+    margin: auto;
+}
+
+.middle-content h2 {
+    padding: 10px 0;
     margin-bottom: 0;
 }
 
@@ -104,7 +179,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +217,44 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
 }
